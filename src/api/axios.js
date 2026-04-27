@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "/api",
+    baseURL: "http://crypto-tracker-api-env.eba-2tmm72yw.eu-north-1.elasticbeanstalk.com",
 });
 
 api.interceptors.request.use((config) => {
